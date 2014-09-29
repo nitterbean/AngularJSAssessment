@@ -1,6 +1,0 @@
-[
-{
-"FirstName" : "Nittaya",
-"LastName" : "Phonharath"
-}
-]
