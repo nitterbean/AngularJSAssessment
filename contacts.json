@@ -1,5 +1,16 @@
-"contacts":[
-    {"name":"John", "email":"john@john.com"}, 
-    {"name":"Anna", "email":"anna@anna.com"}, 
-    {"name":"Peter", "email":"peter@peter.com"}
-]
+{
+    "contacts": [
+        {
+            "name": "John",
+            "email": "john@john.com"
+        },
+        {
+            "name": "Anna",
+            "email": "anna@anna.com"
+        },
+        {
+            "name": "Peter",
+            "email": "peter@peter.com"
+        }
+    ]
+}
