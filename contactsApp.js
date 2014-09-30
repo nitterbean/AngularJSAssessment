@@ -17,8 +17,6 @@ app.controller("mainController",
 			
 			// clears input fields after push
 			document.forms["contactForm"].reset();
-			//$scope.contactName = "";
-			//$scope.contactEmail = "";
 		}
 	};
 });

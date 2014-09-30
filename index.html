@@ -8,10 +8,11 @@
 
 <div ng-app="contactsApp" ng-controller="mainController">
 	<h2>Add Contact</h2>
-		<form name="contactForm" ng-submit="addContact(contactForm.$valid)">
+		<form name="contactForm" ng-submit="addContact(contactForm.$valid)" >
 			<p><input type="text" placeholder="Name" ng-model="contactName" required>
 			<p><input type="email" placeholder="Email" ng-model="contactEmail" required></p>
-			<button type="submit">Add</button>
+			<button type="button">Cancel</button>
+			<button type="submit" ng-disabled="contactForm.$invalid">Add</button>
 		</form>
 	<hr>
 	
@@ -30,8 +31,9 @@
 			</tr>
 		</table>
 	</div>
-</div>
 	
+</div>
+
 <script src="contactsApp.js"></script>
 
 </body>
