@@ -1,0 +1,12 @@
+body {
+	font-family:webdings;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+th, td {
+	width:200px;
+	border:1px solid black;
+}
