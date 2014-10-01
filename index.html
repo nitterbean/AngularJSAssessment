@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="contactsApp">
 <head>
 	<link rel="stylesheet" href="contactsAppStyle.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
 </head>
 
-<body>
+<body ng-controller="mainController">
 
-<div ng-app="contactsApp" ng-controller="mainController">
+<div>
 	<h2>Add Contact</h2>
 		<form name="contactForm" ng-submit="addContact(contactForm.$valid)" >
 			<p><input type="text" placeholder="Name" ng-model="contactName" required>
@@ -17,7 +17,7 @@
 		</form>
 	<hr>
 	
-	<div id="contactTable" width="600px"> 
+	<div id="contactTable" width="600px" align="center"> 
 		<h2>Contacts</h2>
 		<table>
 			<tr>
